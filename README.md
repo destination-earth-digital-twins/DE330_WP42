@@ -4,7 +4,7 @@ A wiki repository for the Work Package 4 Task 2 - Statistical/ML-based post-proc
 ## Guidelines/Checklist for deliverables for WP4
 
 * Ask for access on our DEODE github (https://github.com/DEODE-NWP) to Jonathan Demaeyer and provide your github handle (e.g. @jodemaey).
-* Create your own repository for your contributions (one per application/method).
+* Create your own repository for your contributions  **in the DEODE-NWP organization** (one per application/method).
 * **By default make your code repositories private, the decision to make it public should be discussed with the managers.**
 * Add your repository link and short description to the task wiki home page, e.g. for task 1 on https://github.com/DEODE-NWP/WP41/wiki .
 * **Mandatory naming convention for the contributions:** all the code repositories must start with the work package id they belong to, i.e. a code for work package 2 must start with “WP42-” then additional identifiers and then finally the name of the application/method can be added, separated by hyphens ‘-’. For example, assuming that a member-by-member postprocessing code would be added to task 2 contributions, it should be named ‘WP42-methods-MBM’ or ‘WP42-MBM’. It is up to task managers to decide and manage if additional identifiers are needed.
