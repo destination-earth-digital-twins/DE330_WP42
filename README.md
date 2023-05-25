@@ -16,3 +16,16 @@ A wiki repository for the Work Package 4 Task 2 - Statistical/ML-based post-proc
 * If you want to share small pieces of code with others, please use the “sandbox” of each task, e.g. the sandbox of task 2 is WP42-sandbox: https://github.com/DEODE-NWP/WP42-sandbox . In each sandbox, you can create a new directory and add your code there. Please also add a description in the list in the README of the sandbox.
 * If you do not know where your code should belong, you can put it first in the sandbox. 
 * You are free to create new pages on the task wikis to discuss technical issues or add additional notes. **Please do not add code to the wiki repositories**.
+
+## Guidelines for containerization for WP4
+
+These guidelines are provisional and may still evolve during the project.
+We request the app developpers of the Work Package 4 to abide to these guidelines:
+
+* Document your code as much as possible, this will facilitate the work of the team in charge of containerization.
+* In particular, document and identify clearly the inputs and outputs of your code.
+* Allow the location of the data (inputs, outputs, internal data) to be configurable inside your code, e.g. parameterized by some internal or environment variables.
+* Document and list the *launch calls* of your code/application, i.e. the command lines which put your app into action. This can for example be a single call to a script, or multiple scripts, or a script with many different possible arguments.
+* Link launch calls to inputs and outputs, allowing users to identify which call does what.
+
+An example of a successful containerization is provided [here](https://github.com/DEODE-NWP/WP41-containers-task3-Surge-ThreshPB).
