@@ -24,6 +24,7 @@ We request the app developpers of the Work Package 4 to abide to these guideline
 
 * Document your code as much as possible, this will facilitate the work of the team in charge of containerization.
 * In particular, document and identify clearly the inputs and outputs of your code.
+* List the dependencies and requirements of your code explicitely in the documentation.
 * Allow the location of the data (inputs, outputs, internal data) to be configurable inside your code, e.g. parameterized by some internal or environment variables.
 * Document and list the *launch calls* of your code/application, i.e. the command lines which put your app into action. This can for example be a single call to a script, or multiple scripts, or a script with many different possible arguments.
 * Link launch calls to inputs and outputs, allowing users to identify which call does what.
